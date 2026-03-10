@@ -37,7 +37,7 @@ Machine learning models can learn these patterns from large datasets of stellar 
 ## 📂 Project Structure
 
 ```
-Exoplanet-Analyzer
+Exoplanet-Detector
 │
 ├── data
 │   ├── raw
@@ -49,14 +49,7 @@ Exoplanet-Analyzer
 ├── notebooks
 │   └── data_exploration.ipynb
 │
-├── src
-│   ├── data_preprocessing.py
-│   ├── lightcurve_analysis.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   ├── planet_detection.py
-│   └── visualization.py
-│
+├── src│
 ├── models
 │   ├── exoplanet_classifier.pkl
 │   └── scaler.pkl
