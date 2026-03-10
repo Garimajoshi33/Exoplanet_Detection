@@ -4,6 +4,7 @@
 This project builds a **machine learning pipeline to detect exoplanets from stellar brightness data**. The system analyzes **light curves (flux measurements)** of stars and predicts whether a star system contains an exoplanet.
 
 The dataset used in this project is derived from observations made by the **Kepler Space Telescope**, which detects planets using the **transit method** — observing small dips in a star's brightness when a planet passes in front of it.
+
 ---
 
 ## 🛰️ How Exoplanet Detection Works
