@@ -4,20 +4,6 @@
 This project builds a **machine learning pipeline to detect exoplanets from stellar brightness data**. The system analyzes **light curves (flux measurements)** of stars and predicts whether a star system contains an exoplanet.
 
 The dataset used in this project is derived from observations made by the **Kepler Space Telescope**, which detects planets using the **transit method** — observing small dips in a star's brightness when a planet passes in front of it.
-
----
-
-## 🚀 Project Objectives
-
-The main goals of this project are:
-
-* Analyze **stellar light-curve datasets**
-* Perform **data preprocessing and feature scaling**
-* Handle **class imbalance in astronomical datasets**
-* Train a **machine learning model to detect exoplanets**
-* Evaluate **model performance using multiple metrics**
-* Save the **trained model for future predictions**
-
 ---
 
 ## 🛰️ How Exoplanet Detection Works
@@ -49,13 +35,11 @@ Exoplanet-Detector
 ├── notebooks
 │   └── data_exploration.ipynb
 │
-├── src│
+├── src
+│
 ├── models
 │   ├── exoplanet_classifier.pkl
 │   └── scaler.pkl
-│
-├── app
-│   └── app.py
 │
 ├── requirements.txt
 └── README.md
@@ -181,58 +165,6 @@ The trained artifacts are stored in the **models** directory.
 * **scaler.pkl** → StandardScaler used for feature scaling
 
 These allow predictions on new data **without retraining the model**.
-
----
-
-## 🖥️ Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/Exoplanet-Analyzer.git
-```
-
-Navigate to the project directory:
-
-```bash
-cd Exoplanet-Analyzer
-```
-
-Install required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## ▶️ Running the Project
-
-Start Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-Open the notebook:
-
-```
-notebooks/data_exploration.ipynb
-```
-
-Run all cells sequentially to reproduce the analysis and model training.
-
----
-
-## 🔮 Future Improvements
-
-Possible enhancements include:
-
-* Deep learning models for light-curve classification
-* Integration with **NASA Exoplanet Archive**
-* Web dashboard for interactive predictions
-* Real-time light curve visualization
-* Automated exoplanet candidate ranking
 
 ---
 
